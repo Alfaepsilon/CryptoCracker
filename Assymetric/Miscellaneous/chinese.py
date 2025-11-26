@@ -1,4 +1,4 @@
-from extended_euclidean import exeucalgo
+from CryptoCracker.Assymetric.Miscellaneous import exeucalgo
 def chinese(y_list, mods):
 	answers = y_list[0]
 	mod = mods[0]
