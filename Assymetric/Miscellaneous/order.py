@@ -1,6 +1,6 @@
 #from sympy import primefactors
-from factorize import factorize
-from cc_powmod import cc_powmod
+from .factorize import factorize
+from .cc_powmod import cc_powmod
 def order(g, p):
     factors = factorize(p)
     modulo = p + 1

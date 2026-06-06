@@ -1,7 +1,7 @@
 def cc_gcd(A, n):
 	while (A != n):
 		if A > n:
-			A = A - b
+			A = A - n
 		else:
-			b = b - A
+			n = n - A
 	return A

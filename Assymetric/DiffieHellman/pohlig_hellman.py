@@ -1,6 +1,6 @@
-from Miscellaneous import cc_powmod
-from DiffieHellman import shanks
-from Miscellaneous import chinese
+from CryptoCracker.Assymetric.Miscellaneous import cc_powmod
+from .shanks import shanks
+from CryptoCracker.Assymetric.Miscellaneous import chinese
 def pohlig(val, factors, g, p, N):
     print("Pohlig")
     y = []
