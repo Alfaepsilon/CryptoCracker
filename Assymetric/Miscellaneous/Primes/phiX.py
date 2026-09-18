@@ -1,4 +1,6 @@
-from CryptoCracker.Assymetric.RSA import MillerRabin
+from .MillerRabin import MillerRabin
+
+
 def phiX():
     X = 100
     a = 0

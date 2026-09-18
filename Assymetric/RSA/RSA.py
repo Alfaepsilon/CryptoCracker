@@ -1,7 +1,7 @@
-from CryptoCracker.Assymetric.Miscellaneous import cc_powmod
-from CryptoCracker.Assymetric.Miscellaneous import cc_gcd
-from .MillerRabin import MillerRabin
-from CryptoCracker.Assymetric.Miscellaneous import exeucalgo
+from ..Miscellaneous import cc_powmod
+from ..Miscellaneous import cc_gcd
+from ..Miscellaneous.Primes.MillerRabin import MillerRabin
+from ..Miscellaneous import exeucalgo
 
 def setup():
     p = int(input("Enter first large prime: "))
@@ -30,4 +30,6 @@ def decrypt(ciphertext, p, q, e, N):
     plaintext = cc_powmod(N, ciphertext, d)
     print(plaintext)
 
-setup()
+
+if __name__ == "__main__":
+    setup()

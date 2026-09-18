@@ -1,6 +1,6 @@
 from math import ceil, sqrt
-from CryptoCracker.Assymetric.Miscellaneous import exeucalgo
-from CryptoCracker.Assymetric.Miscellaneous import cc_powmod
+from ..Miscellaneous import exeucalgo
+from ..Miscellaneous import cc_powmod
 def shanks(val, p, g, N):
 	#print("Shanks!")
 	inverse = exeucalgo(g, p, 1)

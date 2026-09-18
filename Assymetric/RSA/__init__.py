@@ -1,2 +1,1 @@
-from .MillerRabin import MillerRabin
-from .phiX import phiX
+from .RSA import setup, encrypt, decrypt
